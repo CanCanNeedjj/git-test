@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @GetMapping("/")
     public String index(){
-        return "你好git,hhhhhhhh";
+        return "你好git,hhhhhhhh,fix";
     }
 }
