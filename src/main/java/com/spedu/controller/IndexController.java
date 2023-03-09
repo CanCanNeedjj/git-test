@@ -12,6 +12,7 @@ public class IndexController {
     @GetMapping("/")
     public String index(){
         System.out.println("master");
+        System.out.println("fixfixfix");
         return "你好git,hhhhhhhh,master";
     }
 }
