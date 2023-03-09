@@ -13,6 +13,7 @@ public class IndexController {
     public String index(){
         System.out.println("master");
         System.out.println("fixfixfix");
+        System.out.println("push test");
         return "你好git,hhhhhhhh,master";
     }
 }
